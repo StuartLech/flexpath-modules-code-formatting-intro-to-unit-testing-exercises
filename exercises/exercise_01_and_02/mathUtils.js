@@ -1,12 +1,8 @@
-    //export functions
-    
-    export function add(a, b){
-        let c = a + b;
-        return c;
-    }
+// mathUtils.js
+export function add(a, b) {
+  return a + b;
+}
 
-    export const multiply = (a, b) =>
-    {
-        let c = a * b;
-        return c;
-    }
+export function multiply(a, b) {
+  return a * b;
+}

@@ -1,16 +1,13 @@
-//toUpperCase(str) and toLowerCase(str)
-
-function toUpperCase(str){
-    let string = str.toUpperCase();
-    return string;
+// stringUtils.js
+function toUpperCase(str) {
+  return str.toUpperCase();
 }
 
-function toLowerCase(str){
-    let string = str.toLowerCase();
-    return string;
+function toLowerCase(str) {
+  return str.toLowerCase();
 }
 
 module.exports = {
-    toUpperCase,
-    toLowerCase
+  toUpperCase,
+  toLowerCase,
 };

@@ -1,5 +1,4 @@
-function rectangleArea(width, height) {
+// rectangle.js
+export function rectangleArea(width, height) {
   return width * height;
 }
-
-export { rectangleArea }
